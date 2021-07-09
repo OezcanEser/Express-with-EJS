@@ -1,0 +1,10 @@
+<%- include ("./partials/head") %>
+    <h1>Gallery</h1>
+    <section id="gallery">
+        <% galleryData.forEach(image=> { %>
+            <img src="<%= image.download_url %>" alt="">
+            <% }) %>
+    </section>
+    </body>
+
+    </html>

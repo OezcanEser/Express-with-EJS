@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333333;
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2%;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}}
+
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    justify-content: center;
+    figure {
+    margin-top: 5%;
+    width: 30%;
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}}
+
+#gallery img {
+    width: 33%;
+    height: 50vh;
+    object-fit: cover;
+    padding: 1%;
+}
